@@ -1,29 +1,40 @@
-body{
-background-color: seashell;
-color: maroon;
-margin: 50px;
-font-family: "Propins", sans-serif;
-font-weight: 400;
-display: flex;
-flex-direction: column;
+/* Importação da fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    background-color: seashell;
+    color: maroon;
+    margin: 40px auto;
+    max-width: 900px; /* Limita a largura para melhor leitura no computador */
+    padding: 0 20px;
+    font-family: "Poppins", sans-serif; /* Corrigido de Propins para Poppins */
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
 }
 
-h1, h2{
+/* Títulos */
+h1, h2, h3 {
     text-align: center;
+    color: maroon;
 }
 
-a{
-text-decoration: none;
-color: brown;
-font-weight: 700;
-align-self: center;
-margin-bottom: 20px;
+h2 {
+    margin-top: 40px;
+    border-bottom: 2px solid maroon;
+    padding-bottom: 10px;
 }
 
-a:hover{
-color: chocolate;
+h3 {
+    margin-top: 25px;
+    text-align: left; /* Subtítulos alinhados à esquerda facilitam a leitura */
 }
 
-p{
-    text-align: justify;
-}
+/* Links */
+a {
+    text-decoration: none;
+    color: brown;
+    font-weight: 700;
+    align-self: center;
+    margin-bottom: 20px;
+    transition: color
