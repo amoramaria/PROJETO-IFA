@@ -37,4 +37,32 @@ a {
     font-weight: 700;
     align-self: center;
     margin-bottom: 20px;
-    transition: color
+    transition: color 0.3s ease; /* Transição suave na cor */
+}
+
+a:hover {
+    color: chocolate;
+}
+
+/* Parágrafos e Listas */
+p {
+    text-align: justify;
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+}
+
+ul {
+    line-height: 1.8;
+}
+
+/* Ajustes para as Imagens e Figuras do HTML */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não saia da tela no celular */
+    height: auto;
+    border-radius: 8px; /* Cantos levemente arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar as imagens */
+}
